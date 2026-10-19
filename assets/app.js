@@ -25,7 +25,18 @@ function escapeHtml(s){const el=document.createElement('div');el.textContent=s;r
 $('searchButton').onclick=()=>showResult($('materialSearch').value);$('materialSearch').addEventListener('input',e=>showResult(e.target.value));document.querySelectorAll('[data-search]').forEach(b=>b.onclick=()=>{$('materialSearch').value=b.dataset.search;showResult(b.dataset.search)});document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{category=b.dataset.category;document.querySelectorAll('[data-category]').forEach(x=>x.classList.toggle('active',x===b));renderRates()});
 $('accountButton').onclick=()=>$('member').scrollIntoView({behavior:'smooth'});$('memberStart').onclick=()=>open('accountDialog');$('shareButton')?.addEventListener('click',()=>user?open('shareDialog'):open('accountDialog'));$('openShareFromAccount').onclick=()=>{close('accountDialog');open('shareDialog')};document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>close(b.dataset.close));$('refreshVideos').onclick=loadVideos;
 document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{const signup=b.dataset.mode==='signup';document.querySelectorAll('[data-mode]').forEach(x=>x.classList.toggle('active',x===b));$('nameField').hidden=!signup;$('displayName').required=signup;$('password').autocomplete=signup?'new-password':'current-password';$('authSubmit').innerHTML=signup?'Create account <span>→</span>':'Sign in <span>→</span>';$('authForm').dataset.mode=b.dataset.mode;message('authMessage','')});
-$('authForm').onsubmit=async e=>{e.preventDefault();if(!supabase){message('authMessage','Backend setup is pending. Add your Supabase URL and publishable key in assets/supabase-config.js.',true);return}const email=$('email').value.trim(),password=$('password').value,signup=$('authForm').dataset.mode==='signup';const action=signup?supabase.auth.signUp({email,password,options:{data:{display_name:$('displayName').value.trim()}}}):supabase.auth.signInWithPassword({email,password});const {data,error}=await action;if(error){message('authMessage',error.message,true);return}if(signup&&!data.session)message('authMessage','Check your email to confirm your account.');else{message('authMessage','Welcome to EcoLoop.');setUser(data.user)}};
+$('authForm').onsubmit = (e) => {
+  e.preventDefault();
+
+  const emailField = $('email').value.trim();
+
+  if (!emailField || !emailField.includes('@')) {
+    alert('Please supply a valid email address.');
+    return;
+  }
+
+  alert('Demo login only — no real account created.');
+};e.preventDefault();if(!supabase){message('authMessage','Backend setup is pending. Add your Supabase URL and publishable key in assets/supabase-config.js.',true);return}const email=$('email').value.trim(),password=$('password').value,signup=$('authForm').dataset.mode==='signup';const action=signup?supabase.auth.signUp({email,password,options:{data:{display_name:$('displayName').value.trim()}}}):supabase.auth.signInWithPassword({email,password});const {data,error}=await action;if(error){message('authMessage',error.message,true);return}if(signup&&!data.session)message('authMessage','Check your email to confirm your account.');else{message('authMessage','Welcome to EcoLoop.');setUser(data.user)}};
 $('signOutButton').onclick=async()=>{await supabase?.auth.signOut();close('accountDialog')};$('videoForm').onsubmit=async e=>{e.preventDefault();if(!user||!supabase){message('videoMessage','Please sign in before sharing a link.',true);return}const url=$('videoUrl').value.trim(),platform=platformFor(url);if(!platform){message('videoMessage','Use a public YouTube, Instagram or Facebook video link.',true);return}const {error}=await supabase.from('video_links').insert({title:$('videoTitle').value.trim(),url,platform,owner_id:user.id});if(error){message('videoMessage',error.message,true);return}$('videoForm').reset();message('videoMessage','Your video link is published.');loadVideos()};
 
 const planStorageKey='ecoloop-collection-plan';
