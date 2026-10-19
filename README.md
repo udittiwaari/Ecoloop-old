@@ -80,14 +80,17 @@ The backend and edge handler are included in the repository for later hosting on
 
 
 
-  🌐 Deploying to GitHub Pages
+
+##🌐 Deploying to GitHub Pages
   
  1.  Create a new repository on GitHub named ecoloop.
  2.  Push your code to the main branch.
  3.  Go to Settings → Pages in your GitHub repository and set the source to GitHub Actions.
  4.  Every push to main automatically deploys the frontend/ folder live!
 
-   🗺️ Future Roadmap
+
+
+##🗺️ Future Roadmap
 [ ] Interactive map integration for pinning reported garbage spots.
 
 [ ] Live scrap rate calculator based on weight (kg) and material type.
