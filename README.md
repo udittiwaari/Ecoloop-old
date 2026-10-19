@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="file:///C:/Users/Shubham/Downloads/ecoloop-wordmark.png" alt="EcoLoop Logo" width="120" />
+  <img src="assets/ecoloop-wordmark.png" alt="EcoLoop Logo" width="140">
 
-# EcoLoop 🌱
-  **Smart Waste Management for a Cleaner Future**
+  <h1>EcoLoop</h1>
+  <p>Smart Waste Management for a Cleaner Future 🌱</p>
 </div>
 
 EcoLoop — Smart Waste, Clear Value
