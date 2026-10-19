@@ -1,4 +1,4 @@
-<div align="center">
+<div align="file:///C:/Users/Shubham/Downloads/ecoloop-wordmark.png">
   <img src="file:///C:/Users/Shubham/Downloads/ecoloop-wordmark.png" alt="EcoLoop Logo" width="120" />
 
 # EcoLoop 🌱
