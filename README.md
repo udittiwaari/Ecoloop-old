@@ -96,5 +96,7 @@ The backend and edge handler are included in the repository for later hosting on
 
 [ ] Dark/Light theme toggle using the custom EcoLoop SVG icons.
 
+<div align="center">
 🤝 Contributing
+</div>
 Contributions, issues, and feature requests are welcome! Feel free to fork the repository, open an issue, or submit a pull request to help make EcoLoop even better.
