@@ -70,3 +70,31 @@ The backend and edge handler are included in the repository for later hosting on
     📅 Plan Personal Collections: Schedule and track your waste pickups directly in your browser using localStorage—no sign-ups or external database required.
 
     ⚡ Hybrid Architecture: Works as a standalone static web app on GitHub Pages while supporting a lightweight Node.js API and Python edge health checks for             cloud scaling.
+
+🛠️ Tech Stack
+    Frontend: HTML5, CSS3, Vanilla JavaScript, Custom SVG Brand Assets (ecoloop-wordmark.svg, gemini-svg.svg)   
+    Backend Server: Node.js (v18+) static file server & RESTful JSON API
+    Edge Handler: Python (minimal edge health check service)
+    Storage: Client-side Browser Storage (localStorage)
+    CI/CD & Hosting: GitHub Actions & GitHub Pages
+
+
+
+  🌐 Deploying to GitHub Pages
+  
+ 1.  Create a new repository on GitHub named ecoloop.
+ 2.  Push your code to the main branch.
+ 3.  Go to Settings → Pages in your GitHub repository and set the source to GitHub Actions.
+ 4.  Every push to main automatically deploys the frontend/ folder live!
+
+   🗺️ Future Roadmap
+[ ] Interactive map integration for pinning reported garbage spots.
+
+[ ] Live scrap rate calculator based on weight (kg) and material type.
+
+[ ] Cloud database sync for sharing collection schedules across devices.
+
+[ ] Dark/Light theme toggle using the custom EcoLoop SVG icons.
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to fork the repository, open an issue, or submit a pull request to help make EcoLoop even better.
