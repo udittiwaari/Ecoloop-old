@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/ecoloop-wordmark.png" alt="EcoLoop Logo" width="140">
+  <img src="assets/ecoloop-wordmark.png" alt="EcoLoop Logo" width="290">
 
   <h1>EcoLoop</h1>
   <p>Smart Waste Management for a Cleaner Future 🌱</p>
