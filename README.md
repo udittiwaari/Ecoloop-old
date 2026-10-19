@@ -54,17 +54,19 @@ If port 4173 is already in use, run `npm run start:backup` from `backend/`. It s
 The backend and edge handler are included in the repository for later hosting on a Node/Python-capable service. GitHub Pages hosts the static frontend only. 
 
 🌍 Why EcoLoop? (The Problem & Solution)
-    *The Problem: Millions of tons of recyclable material end up in landfills simply because people don't know what their scrap is worth, how to reuse common          items, or when to schedule their waste pickups.*
+    
+    The Problem: Millions of tons of recyclable material end up in landfills simply because people don't know what their scrap is worth, how to reuse common          items, or when to schedule their waste pickups.
 
-The Solution: EcoLoop bridges the gap between household habits and responsible recycling. By combining a Reuse Guide, Transparent Scrap Pricing, and a Browser-Based Collection Planner, it makes sustainable living practical and rewarding.
+    The Solution: EcoLoop bridges the gap between household habits and responsible recycling. By combining a Reuse Guide, Transparent Scrap Pricing, and a            Browser-Based Collection Planner, it makes sustainable living practical and rewarding.
 
 ✨ What You Can Do on EcoLoop
-🚮 Report Garbage Issues: Quickly flag local waste and sanitation problems to help keep neighborhoods clean.
 
-💡 Discover Reuse & Upcycling Ideas: Learn practical, creative ways to give everyday household items a second life before throwing them out.
+    🚮 Report Garbage Issues: Quickly flag local waste and sanitation problems to help keep neighborhoods clean.
 
-💰 Check Sample Scrap Rates: View transparent reference prices for paper, plastic, metal, and e-waste so you know the exact value of your recyclables.
+    💡 Discover Reuse & Upcycling Ideas: Learn practical, creative ways to give everyday household items a second life before throwing them out.
 
-📅 Plan Personal Collections: Schedule and track your waste pickups directly in your browser using localStorage—no sign-ups or external database required.
+    💰 Check Sample Scrap Rates: View transparent reference prices for paper, plastic, metal, and e-waste so you know the exact value of your recyclables.
 
-⚡ Hybrid Architecture: Works as a standalone static web app on GitHub Pages while supporting a lightweight Node.js API and Python edge health checks for cloud scaling.
+    📅 Plan Personal Collections: Schedule and track your waste pickups directly in your browser using localStorage—no sign-ups or external database required.
+
+    ⚡ Hybrid Architecture: Works as a standalone static web app on GitHub Pages while supporting a lightweight Node.js API and Python edge health checks for             cloud scaling.
