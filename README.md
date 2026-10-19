@@ -2,6 +2,8 @@
   <img src="file:///C:/Users/Shubham/Downloads/ecoloop-wordmark.png" alt="EcoLoop Logo" width="120" />
 
 # EcoLoop 🌱
+  **Smart Waste Management for a Cleaner Future**
+</div>
 
 EcoLoop — Smart Waste, Clear Value
 Turning everyday waste into clear value for a cleaner, greener future.
