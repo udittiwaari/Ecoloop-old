@@ -1,6 +1,14 @@
-# Ecoloop
+<div align="center">
+  <img src="assets/logo.png" alt="EcoLoop Logo" width="120" />
 
-♻️ EcoLoop is a smart waste management and sustainability platform that helps people reduce waste, report garbage problems, discover ways to reuse everyday items, and promote responsible recycling for a cleaner, greener future.
+# EcoLoop 🌱
+
+EcoLoop — Smart Waste, Clear Value
+Turning everyday waste into clear value for a cleaner, greener future.
+
+♻️ EcoLoop is a smart waste management and sustainability platform that helps people reduce waste, report garbage problems, discover ways to reuse everyday items, and promote responsible recycling for a cleaner, greener future. 
+
+EcoLoop is an all-in-one smart waste management and sustainability platform. It empowers individuals and communities to reduce daily waste, report local garbage issues, discover creative ways to upcycle household items, check transparent scrap rates, and organize personal collection schedules—all from a fast, zero-database web interface.
 
 EcoLoop is a single-page guide for smart waste management, reuse ideas, sample scrap rates, and personal collection planning.
 
@@ -41,4 +49,6 @@ If port 4173 is already in use, run `npm run start:backup` from `backend/`. It s
 3. In the repository **Settings → Pages**, set the source to **GitHub Actions**.
 4. Every push to `main` deploys the `frontend/` folder automatically.
 
-The backend and edge handler are included in the repository for later hosting on a Node/Python-capable service. GitHub Pages hosts the static frontend only.
+The backend and edge handler are included in the repository for later hosting on a Node/Python-capable service. GitHub Pages hosts the static frontend only. 
+
+
