@@ -15,7 +15,11 @@ EcoLoop is a single-page guide for smart waste management, reuse ideas, sample s
 
 
 
+<br><br>
+
 🌐 **Live Website:** [Open EcoLoop](https://udittiwaari.github.io/Ecoloop/)
+
+<br><br>
 
 
 
