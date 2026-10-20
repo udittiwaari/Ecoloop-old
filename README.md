@@ -46,7 +46,7 @@ EcoLoop is a single-page guide for smart waste management, reuse ideas, sample s
 
 Follow these instructions to download and run EcoLoop on your local computer.
 
-Prerequisites
+   <h1>Prerequisites</h1>
 
 Install the following tools before starting:
 
