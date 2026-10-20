@@ -46,33 +46,35 @@ EcoLoop is a single-page guide for smart waste management, reuse ideas, sample s
 
 Follow these instructions to download and run EcoLoop on your local computer.
 
-   <h1>Prerequisites</h1>
+Prerequisites
 
 Install the following tools before starting:
 
  Git
+ 
  Node.js (LTS)
+ 
  code editor such as Visual Studio Code
 
 After installation, verify that Node.js, npm, and Git are available in your terminal:
 
-node --version
-npm --version
-git --version
+    node --version
+    npm --version
+    git --version
 
 1. Clone the Repository
 
 Open your terminal or PowerShell and run:
 
-git clone https://github.com/udittiwaari/Ecoloop.git
+    git clone https://github.com/udittiwaari/Ecoloop.git
 
 2. Open the Project Directory
 
-cd Ecoloop
+       cd Ecoloop 
 
 3. Install Dependencies
 
-npm install
+       npm install
 
 This installs the project's dependencies defined in package.json.
 
@@ -80,7 +82,7 @@ This installs the project's dependencies defined in package.json.
 
 If the repository's package.json defines a dev script, run:
 
-npm run dev
+    npm run dev
 
 Open the local URL printed in your terminal. The port may vary depending on the development configuration.
 
@@ -90,17 +92,32 @@ If this command is unavailable, check the scripts in package.json and use the ap
 
 If a build script is configured, run:
 
-npm run build
+    npm run build
 
 The generated production files will be placed in the output directory configured by the project.
 
-🌍 Why EcoLoop? (The Problem & Solution)
+📁 Project Structure
+
+The exact folder structure may change as the project develops. Important files and directories include:
+ 
+    Ecoloop/
+    ├── README.md
+    ├── package.json
+    ├── package-lock.json
+    ├── index.html
+    ├── assets/
+    │   └── ...
+    └── [source files and configuration]
+
+Check the repository for the current source files, static assets, configuration files, and build settings.
+
+## 🌍 Why EcoLoop? (The Problem & Solution)
     
     The Problem: Millions of tons of recyclable material end up in landfills simply because people don't know what their scrap is worth, how to reuse common          items, or when to schedule their waste pickups.
 
     The Solution: EcoLoop bridges the gap between household habits and responsible recycling. By combining a Reuse Guide, Transparent Scrap Pricing, and a            Browser-Based Collection Planner, it makes sustainable living practical and rewarding.
 
-✨ What You Can Do on EcoLoop
+## ✨ What You Can Do on EcoLoop
 
     🚮 Report Garbage Issues: Quickly flag local waste and sanitation problems to help keep neighborhoods clean.
 
@@ -112,7 +129,8 @@ The generated production files will be placed in the output directory configured
 
     ⚡ Hybrid Architecture: Works as a standalone static web app on GitHub Pages while supporting a lightweight Node.js API and Python edge health checks for             cloud scaling.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
+
     Frontend: HTML5, CSS3, Vanilla JavaScript, Custom SVG Brand Assets (ecoloop-wordmark.svg, gemini-svg.svg)   
     Backend Server: Node.js (v18+) static file server & RESTful JSON API
     Edge Handler: Python (minimal edge health check service)
