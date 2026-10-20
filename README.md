@@ -10,9 +10,25 @@ Turning everyday waste into clear value for a cleaner, greener future.
 
 ♻️ EcoLoop is a smart waste management and sustainability platform that helps people reduce waste, report garbage problems, discover ways to reuse everyday items, and promote responsible recycling for a cleaner, greener future. 
 
-EcoLoop is an all-in-one smart waste management and sustainability platform. It empowers individuals and communities to reduce daily waste, report local garbage issues, discover creative ways to upcycle household items, check transparent scrap rates, and organize personal collection schedules—all from a fast, zero-database web interface.
-
 EcoLoop is a single-page guide for smart waste management, reuse ideas, sample scrap rates, and personal collection planning.
+
+🌐 Live Website: https://udittiwaari.github.io/Ecoloop/
+
+💻 Source Code: https://github.com/udittiwaari/Ecoloop
+
+## ✨ Features
+
+  ♻️ Waste Management: Learn about waste segregation, recycling, and responsible disposal.
+
+  🌱 Sustainability Education: Explore ways to reduce waste and reuse everyday materials.
+
+  🔐 User Authentication: Sign-in functionality with backend integration planned or configured through Supabase.
+
+  📊 Waste Information: Explore information about different waste materials and sustainable alternatives.
+ 
+  📱 Web-Based Interface: Access the application through a modern web browser.
+
+  🌍 Environmental Awareness: Encourage habits that support a cleaner and more sustainable environment.
 
 ## Project layout
 
