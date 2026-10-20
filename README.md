@@ -12,17 +12,11 @@ Turning everyday waste into clear value for a cleaner, greener future.
 
 EcoLoop is a single-page guide for smart waste management, reuse ideas, sample scrap rates, and personal collection planning.
 
-
-
-
 <br><br>
 
 🌐 **Live Website:** [Open EcoLoop](https://udittiwaari.github.io/Ecoloop/)
 
 <br><br>
-
-
-
 
 ## ✨ Features
 
