@@ -13,7 +13,11 @@ Turning everyday waste into clear value for a cleaner, greener future.
 EcoLoop is a single-page guide for smart waste management, reuse ideas, sample scrap rates, and personal collection planning.
 
 
+
+
 🌐 **Live Website:** [Open EcoLoop](https://udittiwaari.github.io/Ecoloop/)
+
+
 
 
 ## ✨ Features
@@ -117,9 +121,14 @@ The backend and edge handler are included in the repository for later hosting on
 
 
 
+
+
 <div align="center">
 🤝 Contributing
 </div>
+
+
+
 
 
 Contributions, issues, and feature requests are welcome! Feel free to fork the repository, open an issue, or submit a pull request to help make EcoLoop even better.
