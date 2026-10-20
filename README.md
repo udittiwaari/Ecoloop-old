@@ -28,44 +28,71 @@ EcoLoop is a single-page guide for smart waste management, reuse ideas, sample s
 
   🌍 Environmental Awareness: Encourage habits that support a cleaner and more sustainable environment.
 
-## Project layout
+## 🛠️ Technology Stack
 
-```text
-ecoloop/
-├── frontend/        # Static website and visual assets
-├── backend/         # Node.js static server and small JSON API
-├── edge/            # Minimal Python edge health handler
-├── .github/workflows/ # GitHub Pages deployment automation
-├── .gitignore
-└── README.md
-```
+    Frontend: HTML, CSS, and JavaScript, depending on the implemented modules.
 
-## Run locally
+    Development Tools: Node.js and npm.
 
-1. Install Node.js 18 or later.
-2. Open a terminal in `backend/`.
-3. Run `npm start`.
-4. Visit `http://localhost:4173`.
+    Version Control: Git and GitHub.
 
-The backend also exposes:
+    Hosting: GitHub Pages.
 
-- `GET /api/health`
-- `GET /api/info`
+    Backend and Authentication: Supabase, where configured.
 
-The frontend currently stores collection plans in the browser, so it works without a database.
+    See the source code and package.json for the exact dependencies and scripts used by the current version.
 
-## Backup server
+## 🚀 Getting Started
 
-If port 4173 is already in use, run `npm run start:backup` from `backend/`. It starts EcoLoop on port 4174.
+Follow these instructions to download and run EcoLoop on your local computer.
 
-## Publish on GitHub Pages
+Prerequisites
 
-1. Create an empty repository on GitHub, such as `ecoloop`.
-2. Push this folder's `main` branch to that repository.
-3. In the repository **Settings → Pages**, set the source to **GitHub Actions**.
-4. Every push to `main` deploys the `frontend/` folder automatically.
+Install the following tools before starting:
 
-The backend and edge handler are included in the repository for later hosting on a Node/Python-capable service. GitHub Pages hosts the static frontend only. 
+ Git
+ Node.js (LTS)
+ code editor such as Visual Studio Code
+
+After installation, verify that Node.js, npm, and Git are available in your terminal:
+
+node --version
+npm --version
+git --version
+
+1. Clone the Repository
+
+Open your terminal or PowerShell and run:
+
+git clone https://github.com/udittiwaari/Ecoloop.git
+
+2. Open the Project Directory
+
+cd Ecoloop
+
+3. Install Dependencies
+
+npm install
+
+This installs the project's dependencies defined in package.json.
+
+4. Start the Development Server
+
+If the repository's package.json defines a dev script, run:
+
+npm run dev
+
+Open the local URL printed in your terminal. The port may vary depending on the development configuration.
+
+If this command is unavailable, check the scripts in package.json and use the appropriate command for the project.
+
+5. Build for Production
+
+If a build script is configured, run:
+
+npm run build
+
+The generated production files will be placed in the output directory configured by the project.
 
 🌍 Why EcoLoop? (The Problem & Solution)
     
