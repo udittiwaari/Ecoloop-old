@@ -15,6 +15,11 @@ EcoLoop is a single-page guide for smart waste management, reuse ideas, sample s
 <br><br>
 🌐 **Live Website:** [Open EcoLoop](https://udittiwaari.github.io/Ecoloop/)
 <br><br>
+
+
+<div align="center">
+  <img src="assets/photos/Screenshot 2026-10-22 184224.png" alt="screen short" width="1000">
+
 ## ✨ Features
 
  Waste Management: Learn about waste segregation, recycling, and responsible disposal.
@@ -157,7 +162,6 @@ Check the repository for the current source files, static assets, configuration 
 [ ] Cloud database sync for sharing collection schedules across devices.
 
 [ ] Dark/Light theme toggle using the custom EcoLoop SVG icons.
-
 
 
 
