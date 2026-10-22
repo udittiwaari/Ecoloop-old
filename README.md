@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="assets/ecoloop-mark.png" alt="EcoLoop Logo" width="250">
+  <img src="assets/ecoloop-wordmark.svg" alt="EcoLoop Logo" width="290">
 
-  <h1>EcoLoop</h1>
+  
   <p>Smart Waste Management for a Cleaner Future 🌱</p>
 </div>
 
