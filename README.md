@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="assets/ecoloop-wordmark.svg" alt="EcoLoop Logo" width="290">
-
+  <img src="assets/ecoloop-wordmark.svg" alt="EcoLoop Logo" width="1000">
+ 
+  <h1></h1>
   
   <p>Smart Waste Management for a Cleaner Future 🌱</p>
 </div>
@@ -16,17 +17,17 @@ EcoLoop is a single-page guide for smart waste management, reuse ideas, sample s
 <br><br>
 ## ✨ Features
 
-  ♻️ Waste Management: Learn about waste segregation, recycling, and responsible disposal.
+ Waste Management: Learn about waste segregation, recycling, and responsible disposal.
 
-  🌱 Sustainability Education: Explore ways to reduce waste and reuse everyday materials.
+     Sustainability Education: Explore ways to reduce waste and reuse everyday materials.
 
-  🔐 User Authentication: Sign-in functionality with backend integration planned or configured through Supabase.
+     User Authentication: Sign-in functionality with backend integration planned or configured through Supabase.
 
-  📊 Waste Information: Explore information about different waste materials and sustainable alternatives.
+     Waste Information: Explore information about different waste materials and sustainable alternatives.
  
-  📱 Web-Based Interface: Access the application through a modern web browser.
+     Web-Based Interface: Access the application through a modern web browser.
 
-  🌍 Environmental Awareness: Encourage habits that support a cleaner and more sustainable environment.
+     Environmental Awareness: Encourage habits that support a cleaner and more sustainable environment.
 
 ## 🛠️ Technology Stack
 
