@@ -50,9 +50,8 @@ Prerequisites
 
 Install the following tools before starting:
 
- Git
- 
- Node.js (LTS)
+     Git
+     Node.js (LTS)
  
  code editor such as Visual Studio Code
 
