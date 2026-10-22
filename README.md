@@ -19,6 +19,7 @@ EcoLoop is a single-page guide for smart waste management, reuse ideas, sample s
   <img src="assets/photos/Screenshot 2026-10-22 184224.png" alt="screen short" width="1000">
   
 </div>
+
 ## ✨ Features
 
  Waste Management: Learn about waste segregation, recycling, and responsible disposal.
